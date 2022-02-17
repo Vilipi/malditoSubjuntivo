@@ -314,7 +314,7 @@ h2{
 
     .options{
         display: none;
-        padding-top: 3rem;
+        padding-top: 2rem;
     }
 
     #optionsList li{ 
@@ -337,7 +337,7 @@ h2{
 
     #btnRestartBox{
         display: none;
-       margin-top: 3rem;
+       margin-top: 2.5rem;
     }
     #btnIcon{
         height: 3rem;

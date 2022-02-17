@@ -309,7 +309,7 @@ h2{
 
     #question{
         display: none;
-        padding: 2.8rem 0.3rem 0rem;
+        padding: 2.2rem 0.3rem 0rem;
     }
 
     .options{
@@ -318,7 +318,7 @@ h2{
     }
 
     #optionsList li{ 
-        margin-top: 1.8rem;      
+        margin-top: 1.5rem;      
     }
 
     #optionsList button{

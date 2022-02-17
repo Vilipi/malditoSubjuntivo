@@ -288,7 +288,7 @@ h2{
     #countdown h1{
         display: flex;
         justify-content: center; 
-        font-size: 4rem;
+        font-size: 3.8rem;
 
     }
 
@@ -309,7 +309,7 @@ h2{
 
     #question{
         display: none;
-        padding: 4rem 0.3rem 0rem;
+        padding: 2.8rem 0.3rem 0rem;
     }
 
     .options{

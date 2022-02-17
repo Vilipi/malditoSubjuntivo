@@ -1,0 +1,350 @@
+:root{
+    --lighting-color:#edd8c7;
+    --dark-color:#dcbea6;
+    --darker-color: #aa928e;
+    --darkest-color: #b98c87;
+    --superlight-color:#eeeae7;
+    --superlightest-color:#fefaf8;
+    --green:#98FB98;
+
+}
+
+html,
+body{
+     background-color: var(--superlight-color); 
+     user-select: none;
+    /* background: linear-gradient(180deg, var(--dark-color) 0%, var(--lighting-color) 10%, var(--superlight-color) 100%); */
+}
+
+h1, h2{
+    color: var(--darkest-color); 
+    font-size: 1.7rem; 
+    font-family: BlinkMacSystemFont;
+}
+
+button{
+    background-color: var(--superlightest-color);
+    color: var(--darkest-color);
+    font-weight: 500;
+    border-style:double;
+    box-shadow: 0px 2px 6px var(--darker-color);
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    background-color: white;
+    box-shadow: 0px 6px 12px var(--darker-color);
+}  
+
+.start{
+    padding-top: 15rem;
+    display: block;
+    text-align: center;
+}
+
+/* .start img{
+
+} */
+
+.start h2{
+    font-weight: 800;
+    padding: 0.5rem;
+    
+}
+.start button{
+    margin-top: 2rem;
+    width: 15rem;
+    height: 4.5rem;
+    border-radius: 35px;
+    border-style: double;
+    border-color: var(--darkest-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: var(--superlight-color);
+    color: var(--darkest-color);
+    animation: fadein 1.3s;
+    transition: 0.2s;
+    box-shadow: 0px 8px 15px var(--darker-color);
+}
+
+.start button:hover{
+    transform:translateY(-7px);
+    transition: 0.2s;
+    background-color: var(--darkest-color);
+    color: var(--superlight-color);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+#question{
+    display: none;
+    padding-top: 1rem;
+    /* display: flex;*/
+    justify-content: center;
+    text-align: center;
+    border-top: grey;
+    margin-top: -1rem;
+    
+}
+
+h2{
+    animation: fadein 0.8s linear;
+}
+
+#countdown{
+    justify-content: center;
+    display: none;
+    font-size: 1.8rem;
+    font-family: Gill Sans ;
+}
+
+.options{
+    justify-content: center;  
+    display: none;    
+}
+
+#optionsList{
+    margin: 0;
+    padding: 0;   
+}
+
+#optionsList li{ 
+    list-style:none;
+    margin-top: 1.2rem;
+    animation: fadein 0.8s  ease;  
+}
+
+#optionsList button{
+    width: 15rem;
+    height: 3.4rem;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 20px; 
+    border-color: var(--darkest-color);   
+    transition: 0.2s; 
+    font-family: BlinkMacSystemFont;
+    
+}
+
+  
+
+#correctButton{
+    color:#2E8B57;
+    font-weight: 600;
+    background-color: var(--green);
+    border-style:none;
+    box-shadow: 0px 2px 6px #2E8B57;
+    pointer-events: none;
+}
+
+#wrongButton{
+    color:#8B0000;
+    font-weight: 600;
+    background-color: #FA8072;
+    border-style:none;
+    box-shadow: 0px 2px 6px #8B0000;
+    animation: shake 0.5s;
+    pointer-events: none;
+
+ 
+}
+
+
+#restartBtn{
+    /*display: none;*/
+    width: 15rem;
+    height: 4.5rem;
+    border-radius: 35px;
+    border-style: double;
+    border-color: var(--darkest-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: var(--superlight-color);
+    color: var(--darkest-color);
+    animation: fadein 1.3s;
+    transition: 0.2s;
+    box-shadow: 0px 8px 15px var(--darker-color);
+    
+
+
+}
+
+#restartBtn:hover{
+    transform:translateY(-7px);
+    transition: 0.2s;
+    background-color: var(--darkest-color);
+    color: var(--superlight-color);
+    /* border-color: var(--superlightest-color); */
+    
+
+} 
+
+.image{
+    display: none;
+    /* padding-top: 1rem; */
+    height: 17rem;
+    overflow:auto;
+    margin-left: 4rem ;
+    margin-right: 4rem;
+    /* border-bottom: solid lightgrey; */
+    position: relative;
+    /* pointer-events: none; 
+    user-select: none; */
+}
+
+
+#quijote{
+    position: absolute;
+    width: 10rem;
+    height: 8.5rem;
+    margin-top: 7.5rem;
+    transition: 1s;
+    float:left;
+    
+    /* animation-iteration-count:initial; */
+    
+}
+
+#mill{  
+    width: 8rem;
+    height: 15rem; 
+    margin-top: 0.5rem;
+    float:right; 
+    
+    
+     
+}
+
+#btnRestartBox{
+    /* display: flex;*/
+    justify-content: center; 
+    display: none;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    animation: fadein 0.8s linear
+}
+
+#btnIcon{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 60px;
+    border-color: var(--darkest-color);
+}
+
+.iconFooter{
+    width: 100%;
+    text-align: center;
+    position:fixed;
+    bottom: 1rem;
+}
+
+.iconFooter img{
+    transition: 0.3s;
+}
+
+.iconFooter img:hover{
+    transform: scale(1.1);
+    
+}
+/* Animations */
+
+@keyframes fadein {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+}
+
+/* @keyframes fadeout {
+    0% { opacity: 1 }
+    100% { opacity: 0 }
+} */
+
+@keyframes shake {
+    0% { transform:  rotate(0deg); }
+    10% { transform:  rotate(1deg); }
+    20% { transform:  rotate(0deg); }
+    30% { transform:  rotate(1deg); }
+    40% { transform:  rotate(0deg); }
+    50% { transform:  rotate(1deg); }
+    60% { transform: rotate(0deg); }
+    70% { transform: rotate(1deg); }
+    80% { transform: rotate(0deg); }
+    00% { transform: rotate(1deg); } 
+    100% { transform: rotate(0deg); }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    h1, h2{
+        font-size: 1.2rem;
+    }
+
+    #countdown h1{
+        display: flex;
+        justify-content: center; 
+        font-size: 4rem;
+
+    }
+
+    .title{
+        padding-top: 0.2rem;
+    }
+
+    .image{
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    .image img{
+        display: none;
+    }
+    
+
+    #question{
+        display: none;
+        padding: 4rem 0.3rem 0rem;
+    }
+
+    .options{
+        display: none;
+        padding-top: 3rem;
+    }
+
+    #optionsList li{ 
+        margin-top: 1.8rem;      
+    }
+
+    #optionsList button{
+        width: 12rem;
+        height: 2.9rem;
+        font-size:medium;
+        cursor: pointer;
+        border-radius: 20px; 
+        border-color: var(--darkest-color);   
+        transition: 0.2s; 
+    }
+
+    button:hover{
+        transform: scale(1);
+    }
+
+    #btnRestartBox{
+        display: none;
+       margin-top: 3rem;
+    }
+    #btnIcon{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50px;
+    }
+    
+    
+    
+  }

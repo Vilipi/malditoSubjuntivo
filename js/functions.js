@@ -514,6 +514,294 @@ const questions = [
         option3: "aprendieras",
         correct: "aprendas"
     },
+    {   
+        phrase: "Hasta que no __________ las notas, no estaré tranquilo.",
+        option1: "salen",
+        option2: "salieran",
+        option3: "hubieran salido",
+        correct: "salgan"
+    },
+    {
+        phrase: " Ojalá no lo __________ . Hacíais buena pareja.",
+        option1: "dejaras o dejases",
+        option2: "dejes",
+        option3: "hayas dejado",
+        correct: "hubieras dejado"
+        },
+    {
+        phrase: " Le pedido a mi jefe que me __________ una carta de recomendación.",
+        option1: "escribe",
+        option2: "escribiera o escribiese",
+        option3: "haya escrito",
+        correct: "escriba"
+    },
+    {
+        phrase: " Le pedí a mi jefa que me __________ una carta de recomendación, pero no me la hizo.",
+        option1: "escriba",
+        option2: "haya escrito",
+        option3: "huebiera escrito",
+        correct: "escribiera o escribiese"
+    },
+    {
+        phrase: "Nunca __________ atrás.",
+        option1: "hayas mirado",
+        option2: "miraras o mirases",
+        option3: "miras",
+        correct: "mires"
+    },
+    {
+        phrase: "Quiero una mujer que nunca antes __________ novio.",
+        option1: "ha tenido",
+        option2: "tuviera o tuviese",
+        option3: "tenga",
+        correct: "haya tenido"
+    },
+    {
+        phrase: "Quería una hombre que nunca antes __________ novia.",
+        option1: "tenga",
+        option2: "había tenido",
+        option3: "tuviera o tuviese",
+        correct: "hubiera tenido"
+    },
+    {
+        phrase: "Quiero hacer algo que nunca nadie __________ antes.",
+        option1: "ha hecho",
+        option2: "hiciera o hiciese",
+        option3: "haga",
+        correct: "haya hecho"
+    },
+    {
+        phrase: "Necesito que __________ aquí.",
+        option1: "firmas",
+        option2: "firmaras o firmases",
+        option3: "hayas firmado",
+        correct: "firmes"
+    },
+    {
+        phrase: "Le dio un boli para que __________ .",
+        option1: "firme",
+        option2: "firma",
+        option3: "hubiera firmado",
+        correct: "firmara o firmase"
+    },
+    {
+        phrase: "Toma, un boli para que __________ .",
+        option1: "firmas",
+        option2: "hubieras firmado",
+        option3: "firmaras o firmases",
+        correct: "firmes"
+    },
+    {
+        phrase: "Le voy a comprar una cuchilla para que se __________ .",
+        option1: "haya afeitado",
+        option2: "afeitara o afeitase",
+        option3: "afeita",
+        correct: "afeite"
+    },
+    {
+        phrase: "Sus amigos le compraron una armónica para que se __________ .",
+        option1: "entretenga",
+        option2: "entretuviera o entretuviese",
+        option3: "entretiene",
+        correct: "entretenía"
+    },
+    {
+        phrase: "No creo que el tabaco __________ tan malo como dicen.",
+        option1: "haya sido",
+        option2: "fuera o fuese",
+        option3: "es",
+        correct: "sea"
+    },
+    {
+        phrase: "Victoria debe de estar en casa. No creo que __________ .",
+        option1: "ha salido",
+        option2: "salga",
+        option3: "saliera o saliese",
+        correct: "haya salido"
+    },
+    {
+        phrase: "Busca algo que te __________ feliz.",
+        option1: "hace",
+        option2: "hubiera hecho",
+        option3: "hiciera o hiciese",
+        correct: "haga"
+    },
+    {
+        phrase: "Durante mucho tiempo, buscó una mujer que lo __________ feliz.",
+        option1: "haga",
+        option2: "haya hecho",
+        option3: "hacía",
+        correct: "hiciera o hiciese"
+    },
+    {
+        phrase: "Cuando __________ padre, comerás huevos.",
+        option1: "eres",
+        option2: "fueras o fueses",
+        option3: "hubieras sido",
+        correct: "seas"
+    },
+    {
+        phrase: "Cuando las barbas de tu vecino __________ cortar, pon las tuyas a remojar.",
+        option1: "ves",
+        option2: "vieras o vieses",
+        option3: "hubieras visto",
+        correct: "veas"
+    },
+    {
+        phrase: "Aunque nunca __________ , sabe mucho sobre el amor.",
+        option1: "se enamorara o enamorase",
+        option2: "se hubiera enamorado",
+        option3: "se enamoraba",
+        correct: " se haya enamorado"
+    },
+    {
+        phrase: "Aunque jamás me lo __________ , yo sé que él me quiere.",
+        option1: "dijera o dijese",
+        option2: "hubiera dicho",
+        option3: "ha dicho",
+        correct: "haya dicho"
+    },
+    {
+        phrase: "No importa cuál __________ tu raza, religión o cultura.",
+        option1: "es",
+        option2: "fuera o fuese",
+        option3: "hubiera sido",
+        correct: "sea"
+    },
+    {
+        phrase: "Quiero un vestido que me __________ las rodillas.",
+        option1: "tapa",
+        option2: "haya tapado",
+        option3: "tapara o tapase",
+        correct: "tape"
+    },
+    {
+        phrase: "No encontré ningún vestido que me __________ las rodillas.",
+        option1: "tape",
+        option2: "haya tapado",
+        option3: "hubiera o hubiese tapado",
+        correct: "tapara o tapase"
+    },
+    {
+        phrase: "Cuando __________ las rebajas, iremos de compras.",
+        option1: "llegan",
+        option2: "llegaran o llegasen",
+        option3: "hubieran llegado",
+        correct: "lleguen"
+    },
+    {
+        phrase: "Si __________ menos horas, tendrías más tiempo para tu familia.",
+        option1: "trabajas",
+        option2: "trabajes",
+        option3: "hayas trabajado",
+        correct: "trabajaras o trabajases",
+    },
+    {
+        phrase: "Si no __________ madre tan joven, habría estudiado una carrera.",
+        option1: "sería",
+        option2: "haya sido",
+        option3: "fuera o fuese",
+        correct: "hubiera sido"
+    },
+    {
+        phrase: "Que nadie __________ todavía.",
+        option1: "entra",
+        option2: "haya entrado",
+        option3: "entrara o entrase",
+        correct: "entre"
+    },
+    {
+        phrase: "¡Vete!¡He dicho que te __________ !",
+        option1: "vas",
+        option2: "ve",
+        option3: "hayas ido",
+        correct: "vayas"
+    },
+    {
+        phrase: "Aunque nunca antes __________ , puedes cantar con nosotros.",
+        option1: "cantes",
+        option2: "has cantado",
+        option3: "cantaras o cantases",
+        correct: "hayas cantado"
+    },
+    {
+        phrase: "¡Venga, siente la música! Aunque no __________ bailar, no pasa nada.",
+        option1: "sabes",
+        option2: "supieras o supieses",
+        option3: "hayas sabido",
+        correct: "sepas"
+    },
+    {
+        phrase: "Estoy muy contenta de que __________ antes a mi casa.",
+        option1: "vienes",
+        option2: "has venido",
+        option3: "hubieras venido", 
+        correct: "hayas venido"
+    },
+    {
+        phrase: "No soporto que la gente __________ ruido al comer.",
+        option1: "hace",
+        option2: "hicera o hiciese",
+        option3: "haya hecho",
+        correct: "haga"
+    },
+    {
+        phrase: "Salí tarde porque me pidieron que me __________ una hora más.",
+        option1: "quede",
+        option2: "quedé",
+        option3: "haya quedado",
+        correct: "quedara o quedase"
+    },
+    {
+        phrase: "Hoy salgo a las 10 porque me han pedido que me __________ una hora más.",
+        option1: "quedo",
+        option2: "haya quedado",
+        option3: "quedara o quedase",
+        correct: "quede"
+    },
+    {
+        phrase: "No tengo a nadie que me __________ .",
+        option1: "comprende",
+        option2: "comprendiera o comprendiese",
+        option3: "hubiera comprendido",
+        correct: "comprenda"
+    },
+    {
+        phrase: "Hasta que no __________ dinero no iré a cafeterías.",
+        option1: "ahorraré",
+        option2: "ahorro",
+        option3: "ahorrara o ahorrase",
+        correct: "ahorre"
+    },
+    {
+        phrase: "Yo digo lo que pienso. Me da igual lo que __________ de mí.",
+        option1: "piensan",
+        option2: "hayan pensado",
+        option3: "pensaran o pensasen",
+        correct: "piensen"
+    },
+    {
+        phrase: "Yo he dicho lo que pensaba. Me da igual lo que __________ de mí",
+        option1: "pensaran o pensasen",
+        option2: "hubieran pensado",
+        option3: "han pensado",
+        correct: "hayan pensado"
+    },
+    {
+        phrase: "Ciérralo bien para que no se __________ el agua.",
+        option1: "sale",
+        option2: "saliera o saliese",
+        option3: "hubiera salido",
+        correct: "salga"
+    },
+        
+
+        
+        
+        
+            
+        
+            
 
 
 

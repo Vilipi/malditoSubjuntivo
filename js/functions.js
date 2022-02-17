@@ -46,7 +46,7 @@ const questions = [
         correct:"gane"    
     },
     {
-        phrase:"Alfredo quiere que le __________ un lapiz para hacer el examen.",
+        phrase:"Alfredo quiere que le __________ un lápiz para hacer el examen.",
         option1:"prestarían",
         option2:"prestaron",
         option3:"prestarán",

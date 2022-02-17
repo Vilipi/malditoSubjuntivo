@@ -819,7 +819,7 @@ showOptions();
 
 // console.log(`Current Phrase: ${phraseSelected}`)
 
-//console.log(`total questions:${Object.keys(questions).length}`) // total questions
+console.log(`total questions:${Object.keys(questions).length}`) // total questions
 
 function showQuestion(){
 
@@ -829,7 +829,7 @@ function showQuestion(){
     if (questionsReplied.length<30){ //Corrected replied
 
         min = Math.ceil(0); 
-        max = Math.floor(68); 
+        max = Math.floor(109); 
         do{  
             randomPhrase = Math.floor(Math.random() * (max - min + 1) + min);
             phraseBox.innerHTML = `<h2>${questions[randomPhrase].phrase}</h2>`;
